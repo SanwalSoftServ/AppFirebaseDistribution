@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "717559875564",
+    "project_id": "distributionapp-ca4c5",
+    "storage_bucket": "distributionapp-ca4c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717559875564:android:7cf490089ef4d540b562c9",
+        "android_client_info": {
+          "package_name": "com.shree.appfirebasedistribution"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717559875564-hnn4otshh793nafcfe6u8bub1d760dse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMJplrSR_-hNsMrmf9feALhy7u_EUxHNw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717559875564-hnn4otshh793nafcfe6u8bub1d760dse.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
