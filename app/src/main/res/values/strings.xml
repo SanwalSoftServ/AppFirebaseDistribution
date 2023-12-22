@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AppFirebaseDistribution</string>
+
+    <!--
+    Release command - ./gradlew assembleRelease appDistributionUploadRelease
+    Debug command - ./gradlew assembleDebug appDistributionUploadDebug
+    -->
 </resources>

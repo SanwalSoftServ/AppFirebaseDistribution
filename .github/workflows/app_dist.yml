@@ -3,7 +3,7 @@ name: CD to test
 on:
   push:
     branches:
-      - release
+      - main
 
 jobs:
   publish:

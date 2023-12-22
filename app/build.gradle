@@ -11,8 +11,8 @@ android {
         applicationId "com.shree.appfirebasedistribution"
         minSdk 25
         targetSdk 33
-        versionCode 1
-        versionName "1.0"
+        versionCode 3
+        versionName "1.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -21,6 +21,11 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            firebaseAppDistribution {
+                releaseNotes ="Release APK"
+                testers ="shanwal2009@gmail.com, shanwal@softserv.in, neelam@softserv.in"
+                serviceCredentialsFile = file('D:/Flutter Workspace/AppFirebaseDistribution/serviceAccountKey.json')
+            }
         }
 
         debug{
@@ -28,12 +33,17 @@ android {
                 appId ="1:717559875564:android:7cf490089ef4d540b562c9"
                 // artifactType = AAB or APK (AAB requires play store account)
                 //artifactType ="APK"
-                releaseNotes ="Notes"
+                releaseNotes ="Dubeg APK"
                 //releaseNotesFile ="/path/to/releasenotes.txt"
-                testers ="shanwal2009@gmail.com, shanwal@softserv.in, mahipal@softserv.in, tejpal@softserv.in, tejpal@softserv.in "
+                testers ="shanwal2009@gmail.com, shanwal@softserv.in, neelam@softserv.in"
+                serviceCredentialsFile = file('D:/Flutter Workspace/AppFirebaseDistribution/serviceAccountKey.json')
             }
         }
     }
+
+
+
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
